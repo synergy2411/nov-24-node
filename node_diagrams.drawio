@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="4">
   <diagram name="Page-1" id="Ep7QaVkv6zU5ipOEX8Hd">
     <mxGraphModel dx="716" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,90 @@
         </mxCell>
         <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-13" value="Specific to App, created by App developer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6e1Pbvpbuc0igWK0DATu" name="Page-4">
+    <mxGraphModel dx="775" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="420" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-2" value="Client Side Code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="428" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-3" value="Server Side Code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="428" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-4" target="2HmAp5_AUMQLtmEo7ogk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-4" value="Vanilla JavaScript / Angular / React / Vue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="110" width="260" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-6" value="NodeJS Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-8" target="2HmAp5_AUMQLtmEo7ogk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-8" value="Middleware 1&lt;div&gt;Authentication&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-9" target="2HmAp5_AUMQLtmEo7ogk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-9" value="Middleware 2&lt;div&gt;Logging&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-10" target="2HmAp5_AUMQLtmEo7ogk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-10" value="Middleware 3&lt;div&gt;DB Access&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-12" value="Middleware n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Express&lt;/h1&gt;&lt;div&gt;- use() : to add middlewares in Express&lt;/div&gt;&lt;div&gt;- Middlewares are functions&lt;/div&gt;&lt;div&gt;- Middlewares execute in sequence&lt;/div&gt;&lt;div&gt;- Middleware will have three arguments - request, response, next&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-5" target="2HmAp5_AUMQLtmEo7ogk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-20" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-10" target="2HmAp5_AUMQLtmEo7ogk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=60;exitPerimeter=0;entryX=0.958;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2HmAp5_AUMQLtmEo7ogk-20" target="2HmAp5_AUMQLtmEo7ogk-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="260" />
+              <mxPoint x="670" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2HmAp5_AUMQLtmEo7ogk-23" value="Full Stack App (MEAN / MERN)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

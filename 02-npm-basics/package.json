@@ -1,0 +1,15 @@
+{
+  "name": "sk-unique",
+  "version": "1.0.1",
+  "description": "My Unique project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sumit K",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.0",
+    "yargs": "^17.7.2"
+  }
+}

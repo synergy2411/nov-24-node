@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "myfirst-unique-pkg": "^1.0.0",
+    "sk-unique": "^1.0.0",
     "yargs": "^17.7.2"
   }
 }

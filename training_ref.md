@@ -45,5 +45,34 @@
   > require() keyword for import the functionality
 
 - ECMA Script Module (ESM)
+
   > export keyword to export
   > import statement to import
+
+- npm update
+
+Version => X.Y.Z
+
+1.0.0 -> 1.0.1
+1.0.0 -> 1.1.0
+1.0.0 -> 2.0.0
+
+Z : Patch Version -> bug fixes, updates
+Y : Minor -> backward compatible functionality
+X : Major -> NOT backward compatible functionality
+
+~ : Wanted 16.0.3
+^ : Maximum Minor version (16.2.0)
+
+# Publishing NPM Projects
+
+- npm adduser : Create account (npmjs.com) before running this command
+- npm publish
+
+npm config get registry
+
+# Express Basic Project
+
+- npm init -y
+- npm install express
+- write server creation code in server.js file
