@@ -76,3 +76,12 @@ npm config get registry
 - npm init -y
 - npm install express
 - write server creation code in server.js file
+- npm install nodemon -D
+
+# Todo App - REST Endpoint
+
+- GET : /api/todos -> all todos
+- GET : /api/todos/:id -> single todo
+- POST : /api/todos + Request Body -> create new todo
+- DELETE : /api/todos/:todoId -> delete single item
+- PATCH : /api/todos/:todoId + Request Body -> Update the existing item
