@@ -126,7 +126,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NOtM3ym6pvUkBD0SJBfj" name="Page-3">
-    <mxGraphModel dx="646" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,6 +151,9 @@
         <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-4" value="External Modules" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y0YKJhCYCyPxAMHlMNCQ-5" target="Y0YKJhCYCyPxAMHlMNCQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-5" value="File Modules" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="230" width="120" height="60" as="geometry" />
         </mxCell>
@@ -160,8 +163,11 @@
         <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-9" value="Installed with NodeJS&lt;div&gt;eg. http, os, path, events, fs etc&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-11" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-11" value="Provided by community people.&lt;div&gt;eg. react, vue, angular, colors etc&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0YKJhCYCyPxAMHlMNCQ-13" value="Specific to App, created by App developer" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
