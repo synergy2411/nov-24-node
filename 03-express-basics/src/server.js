@@ -3,6 +3,9 @@ const path = require("path");
 
 const app = express();
 
+app.use(express.json()); // Parsing the Request body
+// app.use(express.urlencoded({ extended: false }));       // Parse the form data
+
 let todoCollection = [
   { id: "t001", title: "buy new jeans", status: false },
   { id: "t002", title: "pot the plants", status: true },
@@ -12,6 +15,25 @@ let todoCollection = [
 
 app.get("/api/todos", (req, res) => {
   res.send(todoCollection);
+});
+
+app.post("/api/todos", (req, res) => {
+  todoCollection.push({
+    id: "t00" + (todoCollection.length + 1),
+    title: req.body.title,
+    status: false,
+  });
+  res.sendStatus(201);
+});
+
+app.get("/api/todos/:todoId", (req, res) => {
+  const { todoId } = req.params;
+  const position = todoCollection.findIndex((todo) => todo.id === todoId);
+  if (position === -1) {
+    return res.sendStatus(404);
+  } else {
+    return res.send(todoCollection[position]);
+  }
 });
 
 // app.get("/api", function (req, res) {
