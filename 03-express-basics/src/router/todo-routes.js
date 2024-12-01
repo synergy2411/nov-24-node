@@ -18,7 +18,7 @@ todoRouter
 todoRouter
   .route("/:todoId")
   .get(todoMongoController.getSingleTodo)
-  .delete(deleteTodo)
+  .delete(todoMongoController.deleteTodo)
   .patch(updateTodo);
 
 module.exports = { todoRouter };
