@@ -63,6 +63,26 @@
     <script>
       $(document).ready(() => {
         const socket = io.connect("http://localhost:9010");
+        const chatterName = prompt("Enter your name -");
+
+        $("#btnSend").click((event) => {
+          event.preventDefault();
+          socket.emit("message", {
+            chatterName,
+            message: $("#txtMessage").val(),
+          });
+          $("#txtMessage").val("");
+        });
+
+        socket.on("acknowledge", (data) => {
+          console.log("Message from Server : ", data.message);
+        });
+
+        socket.on("reply", (data) => {
+          $("#taContainer").append(
+            data.chatterName + " : " + data.message + "\n"
+          );
+        });
       });
     </script>
   </body>
