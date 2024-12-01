@@ -125,3 +125,8 @@ View Engine
   mongodb+srv://thetestuser:zIgYdYq24SJyI5yf@theatlascluster.e9xsq.mongodb.net/?retryWrites=true&w=majority&appName=TheAtlasCluster
 
 # Mongoose
+
+1. Connect with MongoDB (Atlas)
+2. Create Schema
+3. Create Model
+4. DB CRUD Operation using Model
