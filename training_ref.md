@@ -116,13 +116,7 @@ View Engine
 - db.employees.updateOne({ame: "monica geller"})
 - db.employees.find()
 
-# MongoAtlas Credentials
-
-- username : thetestuser
-- password : zIgYdYq24SJyI5yf
-
-- Mongo SRV:
-  mongodb+srv://thetestuser:zIgYdYq24SJyI5yf@theatlascluster.e9xsq.mongodb.net/?retryWrites=true&w=majority&appName=TheAtlasCluster
+# MongoAtlas Credentials : Pls create your own
 
 # Mongoose
 
