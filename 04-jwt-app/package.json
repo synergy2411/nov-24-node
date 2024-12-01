@@ -1,0 +1,19 @@
+{
+  "name": "04-jwt-app",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev:start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Sumit Khandelwal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

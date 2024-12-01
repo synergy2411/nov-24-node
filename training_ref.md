@@ -130,3 +130,9 @@ View Engine
 2. Create Schema
 3. Create Model
 4. DB CRUD Operation using Model
+
+# JSON web Token
+
+- npm install jsonwebtoken
+  : sign() - generates token
+  : verify() - decode token
