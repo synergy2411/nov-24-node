@@ -49,6 +49,8 @@
   > export keyword to export
   > import statement to import
 
+# Sementic Versioning
+
 - npm update
 
 Version => X.Y.Z
@@ -67,9 +69,9 @@ X : Major -> NOT backward compatible functionality
 # Publishing NPM Projects
 
 - npm adduser : Create account (npmjs.com) before running this command
-- npm publish
+- npm publish : publish project on npm registry
 
-npm config get registry
+> npm config get registry
 
 # Express Basic Project
 
@@ -85,3 +87,15 @@ npm config get registry
 - POST : /api/todos + Request Body -> create new todo
 - DELETE : /api/todos/:todoId -> delete single item
 - PATCH : /api/todos/:todoId + Request Body -> Update the existing item
+
+# run below command to make node_modules folder available
+
+> npm install
+
+Express
+MongoDB
+Integration of Mongo with Express (Mongoose)
+Socket Programming
+JWT security
+
+View Engine
