@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+require("./db/mongo-connect");
 const { todoRouter } = require("./router/todo-routes");
 
 const app = express();

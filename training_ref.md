@@ -99,3 +99,29 @@ Socket Programming
 JWT security
 
 View Engine
+
+# MongoDB
+
+- Mongo Deamon : Mongo Server
+- Mongo Shell : Mongo Shell for client (CLI)
+- Mongo Compass : GUI Client for Mongo
+
+- Mongo Atlas : Cloud version of MongoDB
+
+# MongoDB Commands
+
+- use synechron-db
+- db.employees.insertOne({name: "monica geller", salary: 10000})
+- db.employees.deleteOne({ame: "monica geller"})
+- db.employees.updateOne({ame: "monica geller"})
+- db.employees.find()
+
+# MongoAtlas Credentials
+
+- username : thetestuser
+- password : zIgYdYq24SJyI5yf
+
+- Mongo SRV:
+  mongodb+srv://thetestuser:zIgYdYq24SJyI5yf@theatlascluster.e9xsq.mongodb.net/?retryWrites=true&w=majority&appName=TheAtlasCluster
+
+# Mongoose
