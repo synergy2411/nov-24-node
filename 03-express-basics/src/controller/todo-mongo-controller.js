@@ -15,8 +15,8 @@ const createTodo = async (req, res) => {
     const createdTodo = await newTodo.save();
     console.log(createdTodo);
     res.sendStatus(201);
-  } catch (err) {
-    return res.send(err);
+  } catch ({ message }) {
+    return res.send(message);
   }
 };
 
