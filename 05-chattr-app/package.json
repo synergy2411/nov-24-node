@@ -1,0 +1,19 @@
+{
+  "name": "05-chattr-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:start": "nodemon src/socket-server.js"
+  },
+  "keywords": [],
+  "author": "Sumit Khandelwal",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

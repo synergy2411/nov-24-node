@@ -136,3 +136,13 @@ View Engine
 - npm install jsonwebtoken
   : sign() - generates token
   : verify() - decode token
+
+# JWT Auth App
+
+- GET /api/public : accessed by everyone
+- POST /api/login : username and password (matches with username ="john@test" and password="john123")
+- GET /api/protected : accessed by only authenticated user
+
+# Socket Programming
+
+- npm install socket.io
